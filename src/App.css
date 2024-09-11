@@ -47,3 +47,30 @@
     transform: rotate(360deg);
   }
 }
+.perspective-viewer {
+  /* Styles for the overall viewer container */
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.perspective-table {
+  /* Styles for the table within the viewer */
+  border-collapse: collapse;
+}
+
+.perspective-column {
+  /* Styles for individual columns */
+  border-right: 1px solid #ccc;
+}
+
+.perspective-row {
+  /* Styles for individual rows */
+  border-bottom: 1px solid #ccc;
+}
+
+.perspective-cell {
+  /* Styles for individual cells */
+  padding: 5px;
+  text-align: center;
+}
